@@ -64,6 +64,15 @@ typings/
 package-lock.json
 yarn.lock
 
+# macOS and IDE specific files
 .DS_Store
 .vscode
+
+# Excel files
 *.xslx
+
+# Webpack output directory
+client/dist/
+
+# Build artifacts
+/dist/
